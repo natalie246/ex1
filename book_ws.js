@@ -4,10 +4,9 @@ var url = require('url');
 var util = require('util');
 var app = express();
 
-app.listen(8080);
-console.log("listening on port 8080");
-
-
+var port = process.env.PORT || 3000;
+app.listen(port);
+console.log("listening on port " + port);
 
 var myStore = bookStore.getBookStore("stimatzki");
 myStore.setBooksFromJSON();

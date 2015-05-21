@@ -1,0 +1,18 @@
+
+Book store ws 
+
+
+Routs:
+
+'/' - server root
+
+'/printAllBooks' - prints all books, no parameters, returns bookArray
+
+'/getBookPriceByName/:bookName' - gets parameter bookName, returns
+  bookArray[i] or empty JSON if name does not exist 
+
+'/getAllBooksByCategory/:bookCategory' - gets parameter bookCategory,
+  returns books in the category from new array 
+
+'/getMostExpensiveBook' - no parameters, returns bookArray[i] most 
+  expensive book  
