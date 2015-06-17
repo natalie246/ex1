@@ -16,3 +16,6 @@ Routs:
 
 '/getMostExpensiveBook' - no parameters, returns bookArray[i] most 
   expensive book  
+
+פיזרתי console.log 
+לצורך דיבאגינג
